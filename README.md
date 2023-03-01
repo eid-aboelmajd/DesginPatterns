@@ -1,5 +1,5 @@
 # DesginPatterns
-Learn Desgin Pattern from Eng., Mohamed Mahdi Course
+Learn Desgin Patterns from Eng., Mohamed Mahdi Course
 
 Mohamed Mahdi Youtube Channel URL : https://www.youtube.com/@PassCoders
 
