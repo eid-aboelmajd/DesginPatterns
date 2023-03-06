@@ -2,16 +2,19 @@
 using SingeltonPattern;
 
 
-while (true)
-{
-    Console.WriteLine("Please Enter the Id");
+//while (true)
+//{
+//    Console.WriteLine("Please Enter the Id");
 
-    int id = int.Parse(Console.ReadLine());
+//    int id = int.Parse(Console.ReadLine());
 
-    //LookUpLoader lookUpLoader = lookUp
+//    //LookUpLoader lookUpLoader = lookUp
 
-    string name = LookUpLoader.Instance.FindLookUp(id);
+//    string name = LookUpLoader.Instance.FindLookUp(id);
 
-    Console.WriteLine($"Name = {name}");
-}
+//    Console.WriteLine($"Name = {name}");
+//}
 
+double x = Math.Round(0.6 , MidpointRounding.AwayFromZero);
+
+Console.WriteLine($"xx {x}");

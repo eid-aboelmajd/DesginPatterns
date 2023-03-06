@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingeltonPattern", "SingeltonPattern\SingeltonPattern.csproj", "{DF307942-5FEE-499B-A95C-7F6638AFD6EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingeltonPattern", "SingeltonPattern\SingeltonPattern.csproj", "{DF307942-5FEE-499B-A95C-7F6638AFD6EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{4DB9783E-FA2A-4233-8B57-21FD54A07CA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{55998EED-B534-4087-93AB-85529A963892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRollSystem", "PayRollSystem\PayRollSystem.csproj", "{39B1A6FD-BD31-4E6D-BFAD-6A915D50294A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{7EC139DB-A639-4CFA-8164-559B3988E610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +23,23 @@ Global
 		{DF307942-5FEE-499B-A95C-7F6638AFD6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF307942-5FEE-499B-A95C-7F6638AFD6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF307942-5FEE-499B-A95C-7F6638AFD6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B1A6FD-BD31-4E6D-BFAD-6A915D50294A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B1A6FD-BD31-4E6D-BFAD-6A915D50294A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B1A6FD-BD31-4E6D-BFAD-6A915D50294A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B1A6FD-BD31-4E6D-BFAD-6A915D50294A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC139DB-A639-4CFA-8164-559B3988E610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC139DB-A639-4CFA-8164-559B3988E610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC139DB-A639-4CFA-8164-559B3988E610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC139DB-A639-4CFA-8164-559B3988E610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF307942-5FEE-499B-A95C-7F6638AFD6EC} = {4DB9783E-FA2A-4233-8B57-21FD54A07CA4}
+		{55998EED-B534-4087-93AB-85529A963892} = {4DB9783E-FA2A-4233-8B57-21FD54A07CA4}
+		{39B1A6FD-BD31-4E6D-BFAD-6A915D50294A} = {55998EED-B534-4087-93AB-85529A963892}
+		{7EC139DB-A639-4CFA-8164-559B3988E610} = {55998EED-B534-4087-93AB-85529A963892}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DE45BC1-4061-4FB4-B6B9-26B3F15C9F88}
