@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NULLObjectPattern.Core
+namespace TemplateMethodPattern.Core
 {
     public class InvoiceLine
     {
-        public int Id { get; set; }
-        public string Name { get; set; }     
-
+        public int ItemId { get; set; }
+        
         public double Quantity { get; set; }
 
         public double Price { get; set; }
-
     }
 }
